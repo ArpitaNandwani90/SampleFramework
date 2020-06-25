@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.999145">
+<testcase classname="Contacts functionality" name="Verify that I am able to create new contact" time="28.999145">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[Shelly Cooper]&gt; but was:&lt;[Create New Contact]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at step_definitions.contacts_step_definition.i_should_be_able_to_create_new_contact_successfully(contacts_step_definition.java:67)&#13;&#10;&#9;at ✽.Then I should be able to create new contact successfully(C:/Users/Arpita/eclipse-workspace/NewTours/src/test/java/Features/Contacts.feature:8)&#13;&#10;"><![CDATA[Given I am on contacts page.................................................passed
+When I click on "New" button................................................passed
+Then I should be on "Create New Contact" Page...............................passed
+When I enter the contact details............................................passed
+And I click on "Save" button................................................passed
+Then I should be able to create new contact successfully....................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Shelly Cooper]> but was:<[Create New Contact]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at step_definitions.contacts_step_definition.i_should_be_able_to_create_new_contact_successfully(contacts_step_definition.java:67)
+	at ✽.Then I should be able to create new contact successfully(C:/Users/Arpita/eclipse-workspace/NewTours/src/test/java/Features/Contacts.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
